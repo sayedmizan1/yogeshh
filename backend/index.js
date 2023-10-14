@@ -14,7 +14,7 @@ app.use('/auth',require('./routes/auth'))
 app.use('/note',require('./routes/note'))
 
 app.get('/',function(req,res){
-    res.send("hello");
+    res.send("hello world");
 })
 
 
